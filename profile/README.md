@@ -1,5 +1,3 @@
-<img src="https://jumpstone4477.de/assets/img/logo-new.png" width="256" height="256" alt="Logo">
-
 # JS Gaming
 
 [<img src="https://img.shields.io/badge/Github-black?logo=github" width="100" height="auto" alt="Badge">](https://github.com/jumpstone-gaming)
