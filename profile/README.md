@@ -8,17 +8,15 @@
 
 ---
 
-**JS Gaming** is a project by **JumpStone**, dedicated to enhancing the Minecraft experience. We specialize in developing high-quality resource packs, optimized modpacks, and custom gameplay enhancements. Discover our [collection](https://www.jumpstone4477.de/gaming/#/_sidebar.md) of performance-driven tools and creative assets designed to take your game to the next level.
-
-### [Table of contents](https://www.jumpstone4477.de/gaming/#/_sidebar.md)
+**JS Gaming** is a project by **JumpStone**, dedicated to enhancing the Minecraft experience. We specialize in developing high-quality resource packs, optimized modpacks, and custom gameplay enhancements. Discover our collection of performance-driven tools and creative assets designed to take your game to the next level.
 
 ---
 
 ## Development & Hosting
 
-* **Primary Platform:** Our development happens mainly on **GitHub**. All pushes and active coding are done there.
-* **Mirroring:** All repositories are automatically mirrored to **Codeberg** to ensure availability and support open-source alternatives.
-* **Issue Tracking:** Please use our [GitHub Issue Tracker](https://github.com/jumpstone-gaming/issues/issues) for bug reports, suggestions, and feedback. We currently do not track issues on Codeberg.
+- **Primary Platform:** Our development happens mainly on **GitHub**. All pushes and active coding are done there.
+- **Mirroring:** All repositories are automatically mirrored to **Codeberg** to ensure availability and support open-source alternatives.
+- **Issue Tracking:** Please use our [GitHub Issue Tracker](https://github.com/jumpstone-gaming/issues/issues) for bug reports, suggestions, and feedback. We currently do not track issues on Codeberg.
 
 ---
 
