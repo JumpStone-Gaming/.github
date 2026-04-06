@@ -1,0 +1,29 @@
+name: Mirror to Codeberg
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  mirror_to_codeberg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Build Codeberg README from profile README
+        run: |
+          if [ ! -f profile/README.md ]; then
+            echo "profile/README.md not found"
+            exit 1
+          fi
+          cp profile/README.md README.md
+
+      - name: Push to Codeberg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote add codeberg "https://JumpStone:${{ secrets.CODEBERG_TOKEN }}@codeberg.org/JumpStone-Gaming/.profile.git"
+          git push --force codeberg HEAD:main
