@@ -21,9 +21,18 @@ jobs:
           fi
           cp profile/README.md README.md
 
-      - name: Push to Codeberg
+      - name: Commit transformed README for Codeberg mirror
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No README changes to commit"
+          else
+            git commit -m "chore: sync profile README to root for Codeberg"
+          fi
+
+      - name: Push to Codeberg
+        run: |
           git remote add codeberg "https://JumpStone:${{ secrets.CODEBERG_TOKEN }}@codeberg.org/JumpStone-Gaming/.profile.git"
           git push --force codeberg HEAD:main
