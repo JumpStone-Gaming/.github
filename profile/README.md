@@ -14,5 +14,3 @@
 ## Connect
 
 Feel free to join my [Discord](https://discord.gg/VzVJ3zCaJY) if you need help or just want to hang out with the community.
-
-> JS Gaming is part of [HMLabs](https://hmlabs.eu).
