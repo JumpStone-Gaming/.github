@@ -1,3 +1,7 @@
+>[!NOTE]
+> The GitHub organization of JS Gaming is no longer used. For any content visit https://henrymeyer.de/gaming, https://modrinth.com/user/HenryMMey, https://www.curseforge.com/members/henrymmey/projects or my GitHub Profile https://github.com/henrymmey.
+
+
 # JS Gaming
 
 [<img src="https://img.shields.io/badge/Github-black?logo=github" width="100" height="auto" alt="Badge">](https://github.com/jumpstone-gaming)
@@ -8,9 +12,3 @@
 ---
 
 **JS Gaming** is a project by **Henry Meyer**, dedicated to enhancing the Minecraft experience. We specialize in resource packs and optimized modpacks.
-
----
-
-## Connect
-
-Feel free to join my [Discord](https://discord.gg/VzVJ3zCaJY) if you need help or just want to hang out with the community.
